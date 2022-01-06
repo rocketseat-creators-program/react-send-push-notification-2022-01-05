@@ -12,6 +12,10 @@
 
 ### Estrutura inicial:
 
+- Projeto padrão Flutter
+- Componentes para UI da demonstração
+- Gerenciamento de estado por
+
 ### Problemas identificados:
 
 ### Proposta de refatoração
