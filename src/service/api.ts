@@ -4,7 +4,6 @@ const api = axios.create({
     baseURL: 'https://fcm.googleapis.com/fcm/'
 })
 
-console.log(`key=${process.env.REACT_FCM_KEY}`);
 
 api.defaults.headers.authorization = `key=INSIRA AQUI A CHAVE DO SERVIDOR DO PROJETO DO FIREBASE`;
 api.defaults.headers.post['Content-Type'] = 'application/json';
