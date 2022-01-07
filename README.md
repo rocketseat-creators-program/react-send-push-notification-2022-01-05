@@ -1,6 +1,6 @@
 <img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
 
-# Push Notification
+# Send Push Notification (Projeto de apoio para envio de notificação de forma programática)
 
 ## Expert
 
@@ -10,12 +10,18 @@
 
 ## Roteiro
 
-### Estrutura inicial:
+### Estrutura inicial (Send Push Notification):
 
-- Projeto padrão Flutter
+- Projeto padrão React
 - Componentes para UI da demonstração
-- Gerenciamento de estado por
+- Serviço usando API do Firebase
 
-### Problemas identificados:
+### Apresentação do Problema (Contexto do Push Notification):
 
-### Proposta de refatoração
+- Risco de baixo engajamento de usuários para aplicativos sem notificação
+- Dados disponibilizados pelo app podem perder validade sem notificação em tempo real
+
+### Proposta de refatoração (Contexto do Push Notification):
+
+- Implementar push notification
+- Usar o serviço de Cloud Messaging do Firebase
